@@ -1,38 +1,179 @@
-.App {
+.global{
+  margin: 200px 200px;
+  display: flex;
+}
+.main {
+  width: 300px;
+  min-width: 300px;
+  margin-left: 30px;
+  /* margin: 200px auto; */
+  height: 300px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(132, 171, 244);
+  display: flex;
+  position: relative;
+
+}
+.norm {
+  position: absolute;
+    top: 55px;
+    left: 57px;
+    width: 180px;
+    height: 80px;
+    border: 4px solid royalblue;
+    border-radius: 10px;
+    background-color: rgb(199, 217, 251);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+  position: absolute;
+    top: 55px;
+    left: 57px;
+    width: 180px;
+    height: 80px;
+    border: 4px solid royalblue;
+    border-radius: 10px;
+    background-color: rgb(118, 122, 134);
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(199, 217, 251);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+
+
+
+}
+.buttonCantainer{
+  position: absolute;
+  top:170px;
+  left:50px;
+}
+.text{
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ErrorText{
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+  text-align: center;
+} 
+.menu{
+  /* width: 300px;
+  min-width: 300px; */
+  /* margin: 200px ; */
+  /* height: 300px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(132, 171, 244);
+  display: flex;  */
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menuContainer{
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  /* margin: 200px ; */
+  height: 300px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(132, 171, 244);
   display: flex;
-  flex-direction: column;
+}
+.buttonSetCantainer{
+  position: absolute;
+  top:200px;
+  left:100px;
+}
+.valuesContainer{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 250px;
+  height: 150px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(199, 217, 251);
+  /* font-size: 40px;
+  font-weight: bold; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: center; */
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.valueContainer{
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 20px 10px;
+  font-weight: bold;
+  padding: 5px;
+}
+.valueContainer input{
+  margin-top: 5px;
+  width: 40px;
+ position: absolute;
+ right: 40px;
+}
+.mainPro{
+  width: 300px;
+  min-width: 300px;
+  margin-left: 30px;
+  /* margin: 200px auto; */
+  height: 300px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color: rgb(112, 96, 161);
+  display: flex;
+  position: relative;
+}
+.menuContainerPro{
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  margin-left: 30px;
+  /* margin: 200px ; */
+  height: 300px;
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  background-color:  rgb(112, 96, 161);
+  display: flex;
+}
+.buttonSetting{
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.valueContainerError{
+  border: 4px solid royalblue;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 20px 10px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: brown;
+}
+.valueContainerError input{
+  margin-top: 5px;
+  width: 40px;
+ position: absolute;
+ right: 40px;
 }
